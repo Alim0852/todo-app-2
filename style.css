@@ -1,0 +1,93 @@
+/*{
+margin: 0%;
+padding: 0%;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(75, 75, 75);
+height: 60px;
+justify-content: space-between;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+margin-left: 20px;
+
+}
+.name{
+margin-right: 20px;
+
+}
+.institute{
+font-size: 30px;
+
+}*/
+.main-container {
+    background-color: #aaa;
+    text-align: center;
+    width: 300px;
+    /*height: 350px;*/
+    align-items: center;
+    margin-left: 450px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.heading {
+    padding-top: 5px;
+
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    outline: none;
+    border-radius: 5px;
+    border-color: rgb(192, 6, 6);
+    background-color: antiquewhite;
+}
+
+.btn {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    outline: none;
+    border-radius: 5px;
+    border-color: rgb(192, 6, 6);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.text ul {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+/*@media screen and (min-width: 480px) {
+    .container{
+        width: 500px;
+        height: 100vh;
+        margin: 0px;
+
+    }
+  }
